@@ -13,7 +13,7 @@ function modalloaded(){
     console.log("posenet yay horray")
 }
 function gotresults(results){
-    if(results.length = 1){
+    if(results.length > 0){
         console.log(results)
     }
 }
